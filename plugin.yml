@@ -1,0 +1,18 @@
+name: KnowItAllMEB
+authors: [KnowItAllNet, brunyman]
+main: tk.knowitallgn.eco.bridge.Eco
+version: SNAPSHOT-033
+depend: [Vault]
+api-version: 1.13
+softdepend: [Essentials]
+website: www.knowitallgn.tk
+load: STARTUP
+description: Sync your economy accounts over many servers using MySQL. A complete re-master of MySQL Economy Bridge! Gives 1.4.6-1.17! Want to donate some stuffs? https://patreon.com/knowitallnet
+commands:
+ kmeb:
+  description: KnowItAllMEBs command
+  usage: "Usage: /kmeb reload"
+  permission: knowitallmeb.admin
+  aliases: knowitallmeb
+  default: op
+  
