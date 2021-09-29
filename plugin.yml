@@ -1,7 +1,7 @@
 name: KnowItAllMEB
 authors: [KnowItAllNet, brunyman]
 main: tk.knowitallgn.eco.bridge.Eco
-version: SNAPSHOT-033
+version: 0.0.2
 depend: [Vault]
 api-version: 1.13
 softdepend: [Essentials]
