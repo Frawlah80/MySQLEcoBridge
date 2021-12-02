@@ -26,7 +26,7 @@ public class Eco extends JavaPlugin {
 	public static String pluginName = "KnowItAllMEB";
 	public static String authorsName = "KnowItAllNet, brunyman";
 	public static String contributorsName = "Cawiy, SOULGAMERYT, JACK, IronBat666, Frolic_Gamers, Scorponist ZlataOvce.";
-	public static String versionProperty = "STABLE & TESTED BUILD!";
+	public static String versionProperty = "STABLE & Tested BUILD";
 	public static String discord = "https://dsc.gg/knowitallnet";
 	public Map<Player, Integer> syncCompleteTasks = new HashMap<Player, Integer>();
 
@@ -46,6 +46,7 @@ public class Eco extends JavaPlugin {
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 		}
+		
 		// Load Configuration
 		configHandler = new ConfigHandler(this);
 		// Setup MySQL
@@ -62,7 +63,7 @@ public class Eco extends JavaPlugin {
 		log.info("Thanks to the contributors: " + contributorsName);
 		log.info(versionProperty);
 		log.info("Need support? Join our discord! " + discord);
-		log.info(pluginName + " loaded successfully!");
+		log.info(pluginName + " successfully enabled!");
 	}
 
 	@Override
@@ -76,7 +77,7 @@ public class Eco extends JavaPlugin {
 		log.info(pluginName + " successfully disabled!");
 		log.info("--------------------------------------------");
 		log.info("--------------------------------------------");
-		log.info("Goodbye! See ya later!");
+		log.info("Goodbye!");
 		log.info("--------------------------------------------");
 		log.info("--------------------------------------------");
 	}
