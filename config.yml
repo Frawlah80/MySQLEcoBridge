@@ -1,6 +1,6 @@
 # default and the only config.yml for KnowItAllMEB
 # config for STABLE versions
-# version 0.0.2
+# version 0.1.0
 
 #MySQL Database details
 database:
