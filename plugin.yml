@@ -7,7 +7,7 @@ api-version: 1.13
 softdepend: [Essentials]
 website: www.knowitallgn.tk
 load: STARTUP
-description: Sync your economy accounts over many servers using MySQL. A complete re-master of MySQL Economy Bridge! Gives 1.4.6-1.17! Want to donate some stuffs? https://patreon.com/knowitallnet/ brunyman had left this plugin dead, so I tried giving it 1.16 support and 1.17 too and I'll be giving support to newer versions too!
+description: Sync your economy accounts over many servers using MySQL. A complete re-master of MySQL Economy Bridge! Gives 1.4.6-1.18! Want to donate some stuffs? https://patreon.com/knowitallnet/ brunyman had left this plugin dead, so I tried giving it 1.16 support and 1.17 too and I'll be giving support to newer versions too!
 commands:
   kmeb:
     description: KnowItAllMEB's command
