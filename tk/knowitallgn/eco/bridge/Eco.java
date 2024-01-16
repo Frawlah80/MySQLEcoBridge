@@ -25,9 +25,9 @@ public class Eco extends JavaPlugin {
 	public static Economy vault = null;
 	public static String pluginName = "KnowItAllMEB";
 	public static String authorsName = "KnowItAllNet, brunyman";
-	public static String contributorsName = "Cawiy, SOULGAMERYT, JACK, IronBat666, Frolic_Gamers, Scorponist ZlataOvce.";
+	public static String contributorsName = "Your mom";
 	public static String versionProperty = "STABLE & Tested BUILD";
-	public static String discord = "https://dsc.gg/knowitallnet";
+	public static String discord = "";
 	public Map<Player, Integer> syncCompleteTasks = new HashMap<Player, Integer>();
 
 	private static ConfigHandler configHandler;
